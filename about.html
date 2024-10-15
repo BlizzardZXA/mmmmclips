@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    img {
+      width: 500px;
+      height: 500px;
+      object-fit: cover;
+      border-radius: 250px;
+    }
+
+    h2, h3 {
+      clear: both; /* Ensure headings are not affected by floated elements */
+    }
+
+    .video-container {
+      display: flex; /* Use Flexbox to align items side by side */
+      justify-content: flex-start; /* Aligns the videos to the right */
+      gap: 50px; /* Adds space between the videos */
+    }
+
+    video {
+      border-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>This is a really cool website made by me</h1>
+  <img src="chesebuger.PNG" alt="chesebuger" />
+
+  <h2>I also really like this website because it's made by me</h2>
+
+  <h3>Let's watch some more of my awesome clips</h3>
+  <div class="video-container">
+    <video width="500" height="300" controls>
+      <source src="flipreset.mp4" type="video/mp4">
+    </video>
+
+    <video width="500" height="300" controls>
+      <source src="crazydoubletap.mp4" type="video/mp4">
+    </video>
+  </div>
+</body>
+</html>
